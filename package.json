@@ -1,0 +1,46 @@
+{
+  "name": "consumed",
+  "version": "1.0.0",
+  "description": "Easy string consumption",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tandrewnichols/consumed.git"
+  },
+  "keywords": [
+    "consume",
+    "parse",
+    "string",
+    "match",
+    "lexer"
+  ],
+  "author": {
+    "name": "Andrew Nichols",
+    "email": "tandrewnichols@gmail.com",
+    "url": "www.tandrewnichols.me"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tandrewnichols/consumed/issues"
+  },
+  "homepage": "https://github.com/tandrewnichols/consumed",
+  "devDependencies": {
+    "mocha-lcov-reporter": "0.0.2",
+    "coffee-script": "~1.9.3",
+    "mocha-given": "~0.1.3",
+    "indeed": "~1.0.6",
+    "proxyquire": "~1.5.0",
+    "jshint-stylish": "~2.0.1",
+    "grunt-mocha-test": "~0.12.7",
+    "grunt-travis-matrix": "0.0.5",
+    "sinon": "~1.15.4",
+    "mocha": "~2.2.5",
+    "grunt": "~0.4.5",
+    "task-master": "~2.2.1",
+    "grunt-contrib-jshint": "~0.11.2",
+    "grunt-mocha-cov": "~0.4.0"
+  }
+}
