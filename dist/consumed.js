@@ -1,15 +1,15 @@
 (function() {
-  var Consumed = function(str) {
+  var Consumer = function(str) {
     this.str = str;
   };
 
-  Consumed.prototype.consumeTill = function(c, inclusive) {
+  Consumer.prototype.consumeTill = function(c, inclusive) {
     var str = this.str.substring(0, this.str.indexOf(c) + (inclusive ? 1 : 0));
     this.str = this.str.replace(str, '');
     return str;
   };
 
-  Consumed.prototype.consume = function(pattern) {
+  Consumer.prototype.consume = function(pattern) {
     var match = this.str.match(pattern);
     if (match) {
       this.str = this.str.replace(pattern, '');
@@ -18,10 +18,8 @@
   };
 
   if (typeof module === 'object' && module.exports) {
-    module.exports = Consumed;
-  }
-
-  if (typeof window !== 'undefined') {
-    window.Consumed = Consumed;
+    module.exports = Consumer;
+  } else {
+    window.Consumer = Consumer;
   }
 })();

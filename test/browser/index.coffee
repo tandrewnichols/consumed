@@ -1,11 +1,5 @@
-expect = require('indeed').expect
-
 describe 'consumed', ->
-  Given -> global.window = {}
-  Given -> @Consumer = require '../index'
-
-  describe 'window', ->
-    Then -> expect(global.window.Consumed).to.deep.equal @Consumer
+  Given -> @Consumer = window.Consumed
   
   describe '.consumeTill', ->
     context 'single letter', ->
