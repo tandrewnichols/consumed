@@ -42,6 +42,14 @@
     "task-master": "~2.2.1",
     "grunt-contrib-jshint": "~0.11.2",
     "grunt-mocha-cov": "~0.4.0",
-    "grunt-contrib-watch": "~0.6.1"
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-open": "~0.2.3"
+  },
+  "config": {
+    "blanket": {
+      "pattern": [
+        "consumed/index.js"
+      ]
+    }
   }
 }
