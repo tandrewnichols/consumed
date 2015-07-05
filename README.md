@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/tandrewnichols/consumed.png)](https://travis-ci.org/tandrewnichols/consumed) [![downloads](http://img.shields.io/npm/dm/consumed.svg)](https://npmjs.org/package/consumed) [![npm](http://img.shields.io/npm/v/consumed.svg)](https://npmjs.org/package/consumed) [![Code Climate](https://codeclimate.com/github/tandrewnichols/consumed/badges/gpa.svg)](https://codeclimate.com/github/tandrewnichols/consumed) [![Test Coverage](https://codeclimate.com/github/tandrewnichols/consumed/badges/coverage.svg)](https://codeclimate.com/github/tandrewnichols/consumed) [![dependencies](https://david-dm.org/tandrewnichols/consumed.png)](https://david-dm.org/tandrewnichols/consumed)
+[![Build Status](https://travis-ci.org/tandrewnichols/consumed.png)](https://travis-ci.org/tandrewnichols/consumed) [![downloads](http://img.shields.io/npm/dm/consumed.svg)](https://npmjs.org/package/consumed) [![npm](http://img.shields.io/npm/v/consumed.svg)](https://npmjs.org/package/consumed) [![Code Climate](https://codeclimate.com/github/tandrewnichols/consumed/badges/gpa.svg)](https://codeclimate.com/github/tandrewnichols/consumed) [![Test Coverage](https://codeclimate.com/github/tandrewnichols/consumed/badges/coverage.svg)](https://codeclimate.com/github/tandrewnichols/consumed) [![dependencies](https://david-dm.org/tandrewnichols/consumed.png)](https://david-dm.org/tandrewnichols/consumed) ![Size](https://img.shields.io/badge/size-368b-brightgreen.svg)
 
 # consumed
 
@@ -14,8 +14,28 @@ Create a new instance of the Consumed object and pass in a string. Then you can 
 
 ## Usage
 
+### Node
+
 ```js
-var Consumed = require('consumed');
+var Consumed = require('consume');
+```
+
+### Browser
+
+Serve `dist/consumed.js` or `dist/consumed.min.js`:
+
+```html
+<script src="dist/consumed.min.js"></script>
+<script>
+  var consumer = new Consumed('foo');
+</script>
+```
+
+This script is only 368 bytes!
+
+### Example
+
+```js
 var consumer = new Consumed('foo bar baz');
 
 // Get up to the first instance of a letter
