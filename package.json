@@ -1,6 +1,6 @@
 {
   "name": "consumed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy string consumption",
   "main": "index.js",
   "scripts": {
