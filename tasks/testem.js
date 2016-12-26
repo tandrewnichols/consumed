@@ -10,7 +10,7 @@ module.exports = {
     options: {
       framework: 'mocha',
       parallel: 2,
-      reporter: 'tap',
+      reporter: 'dot',
       launch_in_ci: ['PhantomJS'],
       launch_in_dev: ['PhantomJS', 'Chrome'],
     }
