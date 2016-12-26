@@ -2,7 +2,7 @@
   "name": "consumed",
   "version": "1.0.2",
   "description": "Easy string consumption",
-  "main": "index.js",
+  "main": "lib/consumed.js",
   "scripts": {
     "test": "grunt",
     "codeclimate": "codeclimate-test-reporter < coverage/lcov.info",

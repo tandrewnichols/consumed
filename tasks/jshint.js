@@ -8,5 +8,5 @@ module.exports = {
     quotmark: 'single',
     boss: true
   },
-  all: ['index.js']
+  all: ['lib/**/*.js']
 };

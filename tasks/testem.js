@@ -1,7 +1,7 @@
 module.exports = {
   browser: {
     src: [
-      'index.js',
+      'lib/consumed.js',
       'node_modules/mocha-given/browser/mocha-given.js',
       'test/browser/setup.js',
       'node_modules/expect.js/index.js',

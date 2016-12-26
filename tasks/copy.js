@@ -4,7 +4,7 @@ module.exports = {
       {
         expand: true,
         cwd: "./",
-        src: "index.js",
+        src: "lib/consumed.js",
         dest: "dist/",
         rename: function(dest, src) {
           return dest + 'consumed.js';

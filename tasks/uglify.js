@@ -1,6 +1,6 @@
 module.exports = {
   dist: {
-    src: 'index.js',
+    src: 'lib/consumed.js',
     dest: 'dist/consumed.min.js'
   }
 };

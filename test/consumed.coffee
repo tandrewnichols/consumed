@@ -2,7 +2,7 @@ expect = require('indeed').expect
 
 describe 'consumed', ->
   Given -> global.window = {}
-  Given -> @Consumer = require '../index'
+  Given -> @Consumer = require '../lib/consumed'
 
   describe 'window', ->
     Then -> expect(global.window.Consumed).to.deep.equal @Consumer
