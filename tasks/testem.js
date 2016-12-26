@@ -13,7 +13,6 @@ module.exports = {
       reporter: 'tap',
       launch_in_ci: ['PhantomJS'],
       launch_in_dev: ['PhantomJS', 'Chrome'],
-      reporter: 'dot'
     }
   }
 };
