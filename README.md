@@ -57,4 +57,4 @@ console.log(consumer.str); // ' bar baz'
 
 ## Contributing
 
-I'll be happy to merge any pull request that adds value and has passing tests. Be sure to add a test both for node and for the browser. Tests are run with `grunt`.
+Please see [the contribution guidelines](CONTRIBUTING.md).
