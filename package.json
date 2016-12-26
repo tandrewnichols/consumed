@@ -41,7 +41,6 @@
     "grunt-contrib-testem": "~0.5.16",
     "grunt-contrib-uglify": "~2.0.0",
     "grunt-contrib-watch": "~1.0.0",
-    "grunt-mocha-cov": "~0.4.0",
     "grunt-mocha-test": "~0.13.2",
     "grunt-open": "~0.2.3",
     "grunt-shell": "^2.1.0",
@@ -56,12 +55,8 @@
     "sinon": "~1.17.6",
     "task-master": "~2.3.0"
   },
-  "config": {
-    "blanket": {
-      "pattern": [
-        "consumed/index.js"
-      ]
-    }
-  },
-  "dependencies": {}
+  "dependencies": {},
+  "engines": {
+    "node": ">=4"
+  }
 }
