@@ -1,25 +1,31 @@
 (function() {
-  var Consumer = function(str) {
+  var Consumed = function(str) {
     this.str = str;
   };
 
-  Consumer.prototype.consumeTill = function(c, inclusive) {
+  Consumed.prototype._updateString = function(replacement) {
+    this.str = this.str.replace(replacement, '');
+  };
+
+  Consumed.prototype.consumeTill = function(c, inclusive) {
     var str = this.str.substring(0, this.str.indexOf(c) + (inclusive ? 1 : 0));
-    this.str = this.str.replace(str, '');
+    this._updateString(str);
     return str;
   };
 
-  Consumer.prototype.consume = function(pattern) {
+  Consumed.prototype.consume = function(pattern) {
     var match = this.str.match(pattern);
     if (match) {
-      this.str = this.str.replace(pattern, '');
+      this._updateString(pattern);
       return match[0];
     }
   };
 
   if (typeof module === 'object' && module.exports) {
-    module.exports = Consumer;
-  } else {
-    window.Consumer = Consumer;
+    module.exports = Consumed;
+  }
+
+  if (typeof window !== 'undefined') {
+    window.Consumed = Consumed;
   }
 })();
