@@ -1,7 +1,7 @@
 module.exports = {
   unit: {
     options: {
-      root: 'tasks',
+      root: 'lib',
       dir: 'coverage',
       simple: {
         cmd: 'cover',
