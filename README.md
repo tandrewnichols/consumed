@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/tandrewnichols/consumed.png)](https://travis-ci.org/tandrewnichols/consumed) [![downloads](http://img.shields.io/npm/dm/consumed.svg)](https://npmjs.org/package/consumed) [![npm](http://img.shields.io/npm/v/consumed.svg)](https://npmjs.org/package/consumed) [![Code Climate](https://codeclimate.com/github/tandrewnichols/consumed/badges/gpa.svg)](https://codeclimate.com/github/tandrewnichols/consumed) [![Test Coverage](https://codeclimate.com/github/tandrewnichols/consumed/badges/coverage.svg)](https://codeclimate.com/github/tandrewnichols/consumed) [![dependencies](https://david-dm.org/tandrewnichols/consumed.png)](https://david-dm.org/tandrewnichols/consumed) ![Size](https://img.shields.io/badge/size-368b-brightgreen.svg)
+[![Build Status](https://travis-ci.org/tandrewnichols/consumed.png)](https://travis-ci.org/tandrewnichols/consumed) [![downloads](http://img.shields.io/npm/dm/consumed.svg)](https://npmjs.org/package/consumed) [![npm](http://img.shields.io/npm/v/consumed.svg)](https://npmjs.org/package/consumed) [![Code Climate](https://codeclimate.com/github/tandrewnichols/consumed/badges/gpa.svg)](https://codeclimate.com/github/tandrewnichols/consumed) [![Test Coverage](https://codeclimate.com/github/tandrewnichols/consumed/badges/coverage.svg)](https://codeclimate.com/github/tandrewnichols/consumed) [![dependencies](https://david-dm.org/tandrewnichols/consumed.png)](https://david-dm.org/tandrewnichols/consumed) ![Size](https://img.shields.io/badge/size-446b-brightgreen.svg)
 
 # consumed
 
@@ -31,7 +31,7 @@ Serve `dist/consumed.js` or `dist/consumed.min.js`:
 </script>
 ```
 
-This script is only 368 bytes!
+This script is only 446 bytes!
 
 ### Example
 
