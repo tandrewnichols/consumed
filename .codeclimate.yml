@@ -14,7 +14,7 @@ ratings:
     - "lib/**.js"
 exclude_paths:
   - "dist/"
-  - "gulp/"
+  - "tasks/"
   - "test/"
   - "**.json"
   - "**.md"
