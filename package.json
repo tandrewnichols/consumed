@@ -1,6 +1,6 @@
 {
   "name": "consumed",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Easy string consumption",
   "main": "lib/consumed.js",
   "scripts": {
